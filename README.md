@@ -115,7 +115,7 @@ The dataset used includes:
 
 ## Q&A Ready
 
-Feel free to reach out with any questions during the demo or review the notebooks for step-by-step logic explanation and model decisions.
+Feel free to reach out with any questions or review the notebooks for step-by-step logic explanation and model decisions.
 
 >  *Innovation isn’t just solving a problem, but making the solution reliable, extensible, and sustainable at scale.*
 
