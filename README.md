@@ -1,13 +1,11 @@
-# 📦 ExxonMobil Hackathon 2025 – Warehouse Inventory Optimization
+# ExxonMobil Hackathon 2025 – Warehouse Inventory Optimization
 
-## 🧠 Challenge Overview
+## Challenge Overview
 This project was developed as part of the **ExxonMobil Hackathon 2025** under the theme: **Analytics & Innovation for Sustainable Operations**.
-
-The business challenge centers around optimizing **chemical product logistics** in a polymer supply chain — focusing on **inventory overflow prevention** in warehouse operations, with the goal of maintaining optimal stock levels and reducing D&D (Detention and Demurrage) charges.
 
 ---
 
-## 🌐 Business Context
+## Business Context
 
 ### Organization Overview
 - **Parent Company**: Exxon Mobil Corporation, USA – Over 140 years in global energy, gas, and petroleum.
@@ -18,15 +16,9 @@ The business challenge centers around optimizing **chemical product logistics** 
   - Product Solutions (e.g., fuel, chemical, lubricants)
   - Low Carbon Solutions (e.g., CCS, biofuels, lithium for EVs)
 
-### ExxonMobil in Thailand:
-- 3 subsidiaries with 2,000+ employees, operational for over 130 years.
-  - **EML** – Global Business Center (GBC): High-value services.
-  - **EMMTL** – Marketing (2023)
-  - **EMEPKI** – Exploration and Production
-
 ---
 
-## 🚛 Business Case: Polymer Product Logistics
+## Business Case: Polymer Product Logistics
 
 The core problem involves warehouse **inventory imbalance**, where mismatch between **inbound shipments** (based on 3-month demand planning) and **outbound logistics** (truck/marine) causes:
 - Overflow costs (D&D)
@@ -40,7 +32,7 @@ The core problem involves warehouse **inventory imbalance**, where mismatch betw
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset used includes:
 - `Warehouse_Max_Capacity`
@@ -52,7 +44,7 @@ The dataset used includes:
 
 ---
 
-## 🔍 Solution Approach
+## Solution Approach
 
 ### 1. Descriptive Analytics (EDA & Monitoring)
 
@@ -63,10 +55,9 @@ The dataset used includes:
 
 ### 2. Forecast Adjustment
 
-> 🚀 *We performed forecast adjustment using historical accuracy deviation, resulting in significantly improved alignment between actual vs predicted inventory movements.*
+> *We performed forecast adjustment using historical accuracy deviation, resulting in significantly improved alignment between actual vs predicted inventory movements.*
 
 - Applied statistical corrections to initial forecast
-- Generated `pred_data` for model input
 
 ---
 
@@ -80,20 +71,20 @@ The dataset used includes:
 
 #### Phase 2 – **Predictive Optimization with Forecasted Data**
 
-> ✅ **Build a New Optimization Function for `pred_data`**  
-> **Constructed a second optimization function using the same logic, now operating on `pred_data` (forecasted inventory trends).**
+>  **Build a New Optimization Function for `pred_data`**  
+> **Constructed a second optimization function using the same logic, now operating on `pred_data` (forecasted inventory & outbound trends).**
 
 - Plug-and-play design allows users to **directly use new forecast data**
 - Optimizer recommends ideal monthly in/out scheduling
 - Output shows stable inventory around 70–80% with reduced overflow risk
 
-📌 *This step ensures scalability and adaptability without overfitting.*
+ *This step ensures scalability and adaptability.*
 
 ---
 
 ## Technical Stack
 
-- **Python** (Pandas, Numpy, Matplotlib, Scikit-learn, SciPy)
+- **Python** (Pandas, Numpy, Matplotlib, Scikit-learn, pulp)
 - **Jupyter Notebook** for modeling
 - **Version Control**: Git & GitHub
 
@@ -107,7 +98,7 @@ The dataset used includes:
 | Optimization | Scalable predictive optimizer on clean forecast data |
 | Decision Support | Actionable monthly output for warehouse planning |
 
-> The final solution achieved stable performance and adaptability, supporting **decision-making before shipment occurs**, aligned with **ExxonMobil's sustainability and efficiency mission.**
+> The final solution achieved stable performance and adaptability, supportSng **decision-making before shipment occurs**, aligned with **ExxonMobil's sustainability and efficiency mission.**
 
 ---
 
