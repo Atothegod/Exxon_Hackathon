@@ -1,4 +1,4 @@
-# ExxonMobil Hackathon 2025 – Warehouse Inventory Optimization
+# ExxonMobil Hackathon 2025
 
 ## Challenge Overview
 This project was developed as part of the **ExxonMobil Hackathon 2025** under the theme: **Analytics & Innovation for Sustainable Operations**.
