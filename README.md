@@ -1,5 +1,7 @@
 # ExxonMobil Hackathon 2025
 
+[![Watch the video](https://img.youtube.com/vi/AbxGe0n9HnQ/maxresdefault.jpg)](https://youtu.be/AbxGe0n9HnQ)
+
 ## Challenge Overview
 This project was developed as part of the **ExxonMobil Hackathon 2025** under the theme: **Analytics & Innovation for Sustainable Operations**.
 
